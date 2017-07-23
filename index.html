@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Rock-Scissors-Paper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Rock, Scissors, Paper</h1>
+    <div class="container">
+        <h2>Human</h2>
+        <img id="rock" src="img/rock-hand.svg" onclick="paperScissorsRock('ROCK')">
+        <img id="scissors" src="img/scissors-hand.svg" onclick="paperScissorsRock('SCISSORS')">
+        <img id="paper" src="img/paper-hand.svg" onclick="paperScissorsRock('PAPER')">
+    </div>
+
+    <div class="container">
+        <h2>Computer</h2>
+        <img id="computer-rock" src="img/rock-hand.svg">
+        <img id="computer-scissors" src="img/scissors-hand.svg">
+        <img id="computer-paper" src="img/paper-hand.svg">
+    </div>
+
+    <p id="result"></p>
+
+</body>
+
+</html>
